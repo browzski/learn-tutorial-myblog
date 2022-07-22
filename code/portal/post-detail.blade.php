@@ -5,7 +5,7 @@
 @endsection
 @section('content')
 <div class="single-post">
-    <div class="image-wrapper"><img src="{{ url('assets/images/blog-1-1000x600.jpg') }}" alt="Blog Image"></div>
+    <div class="image-wrapper"><img src="{{ url($posts->thumbnail) }}" alt="Blog Image"></div>
 
     <div class="icons">
         <div class="left-area">
@@ -19,27 +19,5 @@
 </div>
 <!-- single-post -->
 
-
-<div class="post-author">
-    <div class="author-image"><img src="{{ url($data['user']->image) }}" alt="{{$data['user']->name}}"></div>
-
-    <div class="author-info">
-        <h4 class="name"><b class="light-color">{{ $data['user']->name }}</b></h4>
-
-        {!! $data['user']->desc !!}
-
-        {{-- <ul class="social-icons">
-            <li><a href="#"><i class="ion-social-facebook-outline"></i></a></li>
-            <li><a href="#"><i class="ion-social-twitter-outline"></i></a></li>
-            <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-            <li><a href="#"><i class="ion-social-vimeo-outline"></i></a></li>
-            <li><a href="#"><i class="ion-social-pinterest-outline"></i></a></li>
-        </ul> --}}
-        <!-- right-area -->
-
-    </div>
-    <!-- author-info -->
-</div>
-<!-- post-author -->
 
 @endsection

@@ -21,7 +21,7 @@
 
 	<header>
 
-		<div class="middle-menu center-text"><a href="#" class="logo"><img src="{{ url('assets/images/logo.png') }}" alt="Logo Image"></a></div>
+		<div class="middle-menu center-text"><a href="{{url('')}}" class="logo"><img src="{{ url('assets/images/logo.png') }}" alt="Logo Image"></a></div>
 
 		<div class="bottom-area">
 

@@ -97,19 +97,6 @@
                             </form>
 
                         </div>
-                        <!-- sidebar-section src-area -->
-
-                        <div class="sidebar-section about-author center-text">
-                            <div class="author-image"><img src="{{ url($data['user']->image) }}" alt="{{ $data['user']->name }}"></div>
-                            <hr>
-
-                            <h4 class="author-name"><b class="light-color">{{ $data['user']->name }}</b></h4>
-                            {!! $data['user']->deskripsi !!}
-
-                            {{-- <div class="signature-image"><img src="assets/images/signature-image.png" alt="Signature Image"></div> --}}
-
-
-                        </div><!-- sidebar-section about-author -->
 
                         <div class="sidebar-section category-area">
                             <h4 class="title"><b class="light-color">Categories</b></h4>
